@@ -1,4 +1,4 @@
-# samall
+# samall  
 
 Installs every library [sam3360](https://pypi.org/user/sam3360/) has ever
 published. That's it — `samall` itself does nothing except depend on all of
