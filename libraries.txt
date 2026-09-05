@@ -1,0 +1,17 @@
+# One PyPI package name per line — this is the single source of truth
+# for samall's dependencies. To add a new library you've published:
+#   1. Add its PyPI name here.
+#   2. Run: python scripts/sync_deps.py
+#   3. Bump the version in pyproject.toml.
+#   4. python -m build && twine upload dist/*
+replico
+vibeUI
+sam3360
+whyfail
+secretshield
+shrug-it
+memobox
+pyproject-lens
+neonprint
+cortexa
+formula-math

@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/samall/__init__.py
+src/samall/cli.py
+src/samall.egg-info/PKG-INFO
+src/samall.egg-info/SOURCES.txt
+src/samall.egg-info/dependency_links.txt
+src/samall.egg-info/entry_points.txt
+src/samall.egg-info/requires.txt
+src/samall.egg-info/top_level.txt

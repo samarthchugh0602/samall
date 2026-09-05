@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "samall"
+version = "0.2.1"
+description = "Installs every library sam3360 has ever published. Does nothing else."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Samarth Chugh (sam3360)" }]
+keywords = ["sam3360", "meta-package", "installer"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+
+# BEGIN AUTO-GENERATED DEPENDENCIES — kept in sync with libraries.txt.
+# Regenerate with: python scripts/sync_deps.py
+dependencies = [
+    "replico",
+    "vibeUI",
+    "sam3360",
+    "whyfail",
+    "secretshield",
+    "shrug-it",
+    "memobox",
+    "pyproject-lens",
+    "neonprint",
+    "cortexa",
+    "formula-math",
+]
+# END AUTO-GENERATED DEPENDENCIES
+
+[project.urls]
+Homepage = "https://pypi.org/user/sam3360/"
+
+[project.scripts]
+samall = "samall.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
