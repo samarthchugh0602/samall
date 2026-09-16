@@ -9,7 +9,24 @@ pip install samall
 samall              # show installed versions
 samall --list       # list every package samall includes
 samall --update     # upgrade every included package, and samall itself
+samall --outdated   # check PyPI for newer releases
+samall --version    # samall's own version
 ```
+
+### Working with one package
+
+Every included library gets its own `--<package>` selector, so you can inspect
+or upgrade just that one without touching the rest:
+
+```
+samall --secretshield             # details: installed, latest, summary, link
+samall --secretshield --version   # just that package's installed version
+samall --secretshield --update    # upgrade only secretshield
+```
+
+This works for any package in the list — `--replico`, `--formula-math`,
+`--surfx`, and so on. Names are matched loosely, so `--shrug-it`,
+`--shrug_it` and `--SHRUG-IT` all resolve to the same package.
 
 ```
 samall — every library sam3360 has ever published

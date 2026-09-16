@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "samall"
-version = "0.2.3"
+version = "0.3.0"
 description = "Installs every library sam3360 has ever published. Does nothing else."
 readme = "README.md"
 requires-python = ">=3.8"
@@ -35,6 +35,7 @@ dependencies = [
     "cortexa",
     "formula-math",
     "devset",
+    "surfx",
 ]
 # END AUTO-GENERATED DEPENDENCIES
 
