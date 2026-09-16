@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "samall"
-version = "0.2.1"
+version = "0.2.3"
 description = "Installs every library sam3360 has ever published. Does nothing else."
 readme = "README.md"
 requires-python = ">=3.8"
@@ -34,6 +34,7 @@ dependencies = [
     "neonprint",
     "cortexa",
     "formula-math",
+    "devset",
 ]
 # END AUTO-GENERATED DEPENDENCIES
 

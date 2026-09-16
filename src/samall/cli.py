@@ -39,6 +39,8 @@ LIBRARIES = [
     "neonprint",
     "cortexa",
     "formula-math",
+    "devset",
+    "surfx",
 ]
 
 SELF_PACKAGE = "samall"

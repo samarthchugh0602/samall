@@ -9,3 +9,4 @@ pyproject-lens
 neonprint
 cortexa
 formula-math
+devset

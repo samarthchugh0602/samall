@@ -14,19 +14,21 @@ samall --update     # upgrade every included package, and samall itself
 ```
 samall — every library sam3360 has ever published
 
-  replico          0.2.3
-  vibeUI            0.1.0
-  sam3360           0.3.0
+  replico           0.2.3
+  vibeUI            3.0.0
+  sam3360           0.2.1
   whyfail           3.0.0
   secretshield      0.4.2
   shrug-it          0.1.0
-  memobox           0.2.0
-  pyproject-lens    0.1.0
+  memobox           0.1.1
+  pyproject-lens    0.4.3
   neonprint         0.1.0
-  cortexa           0.1.0
-  formula-math      0.1.0
+  cortexa           1.0.1
+  formula-math      14.0.1
+  surfx             0.2.0
+  devset            0.1.0
 
-11 libraries installed. samall itself does nothing else.
+13 libraries installed. samall itself does nothing else.
 ```
 
 ## Currently included
@@ -42,6 +44,9 @@ samall — every library sam3360 has ever published
 - [neonprint](https://pypi.org/project/neonprint/)
 - [cortexa](https://pypi.org/project/cortexa/)
 - [formula-math](https://pypi.org/project/formula-math/)
+- [surfx](https://pypi.org/project/surf-x/)
+- [devtset](https://pypi.org/project/devset/)
+
 
 ## Publishing a new library later
 
